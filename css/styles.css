@@ -1,0 +1,317 @@
+body{
+    background-color: black;   
+}
+
+main{
+    width: 1024px;
+    margin: 0 auto;
+    background-color: rgb(254, 255, 255);
+}
+
+header{
+    height: 480px;
+    font-size: 50px;
+    background-size: cover;
+    background-image:url(../images/angel-jimenez.jpg);
+}
+
+.guitarra{
+    height: 480px;
+    background-image: url(../images/john-raptis.png);
+    background-size: cover;
+}
+
+.texto{
+    float: right;
+    width: 275px;
+    padding: 0 50px 10px 50px;
+    text-align: right;
+}
+
+img{
+    width: 275px;
+}
+
+.float1{
+    float: right;
+    width: 275px;
+    padding: 70px 130px 50px 50px;
+}
+
+.fun{
+    float: left;
+    width: 275px;
+    padding: 100px 50px 50px 130px;
+    text-align: justify;
+    
+}
+.clear1{
+    clear: both;
+}
+
+.float2{
+    float: left;
+    width: 275px;
+    padding: 70px 50px 50px 130px; 
+}
+.louder{
+    float: right;
+    width: 275px;
+    padding: 100px 130px 50px 50px; 
+    text-align: justify;  
+}
+
+.clear2{
+    clear: both;
+}
+
+h2{
+    background: -webkit-linear-gradient(red,rgb(216, 18, 140));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h1{
+    text-align: center;
+    color:rgb(254, 255, 255);
+    margin: 0 0 60px;
+    padding: 155px 0 0 0;
+}
+
+.fondo{
+    background-color: #f83e76;
+    padding: auto;
+    width: 1024px;
+    height: 400px;
+}
+
+.tabla1{
+    color: white;
+    margin-left: 15%;
+    font-size: 16px;
+}
+
+td{
+    width: 150px;
+    margin: 25px;
+    padding: 20px;
+    text-align: left;
+}
+
+th{
+    text-align: justify;
+}
+
+hr{
+    width: 950px;
+    padding: 1px;
+    color: white;
+}
+
+.color1{
+    background-color: #f83e6d;
+    padding: auto;
+    width: 1024px;
+    height: 350px;
+}
+
+.boton{
+    border-radius: 25px; 
+    background-color: rgb(228, 47, 80);
+    width: 45%;
+    color: white;
+}
+
+.bot{
+    font-size: 14px;
+}
+
+footer p{
+    text-align: left;
+    color:rgb(243, 234, 241)
+}
+
+.gmail{
+    text-align: right;
+    color: white;
+    padding: 0px 30px 10px 30px;
+}
+
+.black{
+    color: white;
+}
+
+@media (max-width:1200px) {
+    main{
+        width: 100%;
+    }
+
+    hr{
+        width: 100%;
+    }
+
+    .fondo{
+        width: 100%;
+        height: 415px;
+    }
+    .color1{
+        width: 100%;
+    }
+    hr{
+        width: 100%;
+    }
+
+    .fun{
+        width: 330px;
+        padding: 150px 50px 50px 170px;
+    }
+    .fun p{
+        font-size: 20px;
+    }
+    img{
+        width: 302px;
+        padding: 46px 30px 50px 0px;
+    }
+    .float1{
+        padding: 70px 165px 50px 50px;
+    }
+    .louder{
+        width: 330px;
+        padding: 110px 165px 50px 50px;
+    }
+    .louder p{
+        font-size: 20px;
+    }
+    .texto{
+        padding: 0 85px 10px 50px;
+    }
+    .texto p{
+        font-size: 20px;
+    }
+    h1{
+        padding: 80px 0 0 0;
+        font-size: 25px;
+        text-align: end;
+    }
+    .tabla1{
+        font-size: 20px;
+        margin-left: 20%;
+    }
+    .tituloMusic{
+        text-align: center;
+        font-size: 90px;
+        padding: 150px;
+    }
+}
+@media (max-width:992px) {
+    .fun{
+        padding: 150px 50px 50px 110px;
+    }
+    .float1{
+        padding: 70px 110px 50px 50px;
+    }
+    .louder{
+        padding: 110px 110px 50px 50px;
+    }
+    .float2{
+        padding: 70px 50px 50px 110px; 
+    }
+    .tabla1{
+        margin-left: 14%;
+    }   
+}
+@media (max-width:768px) {
+    .fun{
+        width: 294px;
+        padding: 150px 50px 50px 45px;
+    }
+    .float1{
+        width: 255px;
+    }
+    .float1{
+        padding: 70px 63px 50px 0px;
+    }
+    .float2{
+        padding: 70px 50px 50px 21px; 
+    }
+    .louder{
+        padding: 110px 45px 50px 30px;
+    }
+    img{
+        padding: 60px 0px 50px 0px;
+    }  
+    .texto{
+        padding: 0 30px 10px 50px;    
+    }
+    .tabla1{
+        font-size: 15px;
+        margin-left: 10%;
+    }
+    .fondo{
+        height: 391px;
+    }
+}
+@media (max-width:600px) {
+    .section1{
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 0 107px;
+    }
+    .section2{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0 0 0 107px;
+    }
+    .float1{
+        padding: 0px 63px 50px 45px;
+    }
+    .boton{
+        margin: 0 0 0 80px;
+    }
+    .float2{
+        padding: 0px 63px 50px 45px;
+    }  
+}
+
+@media (min-width:350px) {
+    .section1{
+        padding: 0 0 0 15px;
+    }
+    .fun{
+        padding: 20px 0px 50px 0px;
+    }
+    .float1{
+        padding: 0px 22px 50px 11px;
+    }
+    .section2{
+        padding: 0 0 0 15px;
+    }
+    .louder{
+        width: 294px;
+        padding: 20px 0px 50px 0px;
+    }
+    .float2{
+        padding: 0px 0px 50px 0px;
+    }
+    .tituloMusic{
+        font-size: 40px;
+        padding: 67px;
+    }
+    td{
+        padding: 9px;
+        font-size: 10px;
+    }
+    hr{
+        width: 89%;
+    }
+    .tabla1{
+        margin-left: 5%;
+    }
+    .fondo{
+        height: 253px;
+    }
+    header{
+        height: 188px;
+    }
+    
+}
